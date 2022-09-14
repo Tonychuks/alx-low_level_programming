@@ -1,9 +1,10 @@
 #include "main.h"
 /**
-*main - x10
-*print_alphabet_x10 -> prints the lowercase alphabets
+*main - entry point 
+*print_alphabet_x10 -> prints 10 times lowercase alphabets
+*
+* Return: always 0 (success)
 */
-
 void print_alphabet_x10(void)
 {
 	int j;
@@ -18,4 +19,3 @@ void print_alphabet_x10(void)
 		_putchar('\n');
 	}
 }
-
