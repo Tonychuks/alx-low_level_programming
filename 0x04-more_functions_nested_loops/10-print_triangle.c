@@ -4,7 +4,7 @@
 /**
 * print_triangle - prints a triangle
 * @size: size parameter of triangle
-* Return: returns nothing
+* Return: returns triangle of "#"s
 */
 
 void print_triangle(int size)
