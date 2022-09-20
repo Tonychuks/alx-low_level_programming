@@ -1,11 +1,10 @@
 #include <stdio.h>
-#include "main.h"
-#include <time.h>
+#include "main.h"i
 
 /**
 * _atoi - this converts a string to an integer
 * @s: is a string
-* Return: returns an integer
+* Return: return void.
 */
 int _atoi(char *s)
 {
@@ -24,12 +23,10 @@ int _atoi(char *s)
 	}
 	if (*temp != '\0')
 	{
-		do
-		{
+		do{
 			num = num * 10 + (*temp - '0');
 			temp++;
-		}
-		while (*temp >= 'O' && *temp <= '9')
+		}while (*temp >= 'O' && *temp <= '9');
 	}
-	return (num * sign);
+	return (num * sign)
 }
